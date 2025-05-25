@@ -5,7 +5,7 @@
     "plans": [
       { "name": "Essentiel", "price": 10.99 },
       { "name": "Standard", "price": 13.49 },
-      { "name": "Premium", "price": 19.99 }
+      { "name": "Premium", "price": 20.99 }
     ]
   },
   {
