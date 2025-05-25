@@ -3,39 +3,101 @@
     "name": "Netflix",
     "icon": "netflix.png",
     "plans": [
-      { "name": "Essentiel", "price": 10.99 },
-      { "name": "Standard", "price": 13.49 },
-      { "name": "Premium", "price": 20.99 }
+      {
+        "name": "Essentiel",
+        "prices": [
+          { "price": 10.99, "start": "2022-01-01", "end": "2024-05-22" },
+          { "price": 11.99, "start": "2024-05-23" }
+        ]
+      },
+      {
+        "name": "Standard",
+        "prices": [
+          { "price": 13.49, "start": "2022-01-01", "end": "2024-05-22" },
+          { "price": 14.49, "start": "2024-05-23" }
+        ]
+      },
+      {
+        "name": "Premium",
+        "prices": [
+          { "price": 19.99, "start": "2022-01-01" }
+        ]
+      }
     ]
   },
   {
     "name": "Disney+",
     "icon": "disney.png",
     "plans": [
-      { "name": "Standard", "price": 8.99 },
-      { "name": "Premium", "price": 11.99 }
+      {
+        "name": "Standard",
+        "prices": [
+          { "price": 8.99, "start": "2022-01-01" }
+        ]
+      },
+      {
+        "name": "Premium",
+        "prices": [
+          { "price": 11.99, "start": "2022-01-01" }
+        ]
+      }
     ]
   },
   {
     "name": "Prime Video",
     "icon": "prime.png",
     "plans": [
-      { "name": "Mensuel", "price": 6.99 },
-      { "name": "Annuel", "price": 69.90, "isYearly": true }
+      {
+        "name": "Mensuel",
+        "prices": [
+          { "price": 6.99, "start": "2022-01-01", "end": "2024-05-10" },
+          { "price": 7.99, "start": "2024-05-11" }
+        ]
+      },
+      {
+        "name": "Annuel",
+        "prices": [
+          { "price": 69.90, "start": "2022-01-01", "end": "2024-05-10" },
+          { "price": 79.90, "start": "2024-05-11" }
+        ],
+        "isYearly": true
+      }
     ]
   },
   {
     "name": "Apple TV+",
     "icon": "appletv.png",
     "plans": [
-      { "name": "Mensuel", "price": 9.99 }
+      {
+        "name": "Standard",
+        "prices": [
+          { "price": 9.99, "start": "2022-01-01" }
+        ]
+      }
     ]
   },
   {
-    "name": "Paramount+",
-    "icon": "paramount.png",
+    "name": "Canal+ Series",
+    "icon": "canal.png",
     "plans": [
-      { "name": "Mensuel", "price": 7.99 }
+      {
+        "name": "Solo",
+        "prices": [
+          { "price": 7.99, "start": "2022-01-01" }
+        ]
+      },
+      {
+        "name": "Duo",
+        "prices": [
+          { "price": 10.99, "start": "2022-01-01" }
+        ]
+      },
+      {
+        "name": "Family",
+        "prices": [
+          { "price": 12.99, "start": "2022-01-01" }
+        ]
+      }
     ]
   }
 ]
