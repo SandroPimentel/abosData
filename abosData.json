@@ -1,0 +1,41 @@
+[
+  {
+    "name": "Netflix",
+    "icon": "netflix.png",
+    "plans": [
+      { "name": "Essentiel", "price": 10.99 },
+      { "name": "Standard", "price": 13.49 },
+      { "name": "Premium", "price": 19.99 }
+    ]
+  },
+  {
+    "name": "Disney+",
+    "icon": "disney.png",
+    "plans": [
+      { "name": "Standard", "price": 8.99 },
+      { "name": "Premium", "price": 11.99 }
+    ]
+  },
+  {
+    "name": "Prime Video",
+    "icon": "prime.png",
+    "plans": [
+      { "name": "Mensuel", "price": 6.99 },
+      { "name": "Annuel", "price": 69.90, "isYearly": true }
+    ]
+  },
+  {
+    "name": "Apple TV+",
+    "icon": "appletv.png",
+    "plans": [
+      { "name": "Mensuel", "price": 9.99 }
+    ]
+  },
+  {
+    "name": "Paramount+",
+    "icon": "paramount.png",
+    "plans": [
+      { "name": "Mensuel", "price": 7.99 }
+    ]
+  }
+]
