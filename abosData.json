@@ -5,23 +5,21 @@
     "plans": [
       {
         "name": "Essentiel",
-        "prices": [
-          { "price": 10.99, "start": "2022-01-01", "end": "2024-05-22" },
-          { "price": 11.99, "start": "2024-05-23" }
-        ]
+        "price": 10.99,
+        "oldPrice": 9.99,
+        "priceChangeDate": "2024-10-01"
       },
       {
         "name": "Standard",
-        "prices": [
-          { "price": 13.49, "start": "2022-01-01", "end": "2024-05-22" },
-          { "price": 14.49, "start": "2024-05-23" }
-        ]
+        "price": 13.49,
+        "oldPrice": 12.49,
+        "priceChangeDate": "2025-03-15"
       },
       {
         "name": "Premium",
-        "prices": [
-          { "price": 19.99, "start": "2022-01-01" }
-        ]
+        "price": 19.99,
+        "oldPrice": 17.99,
+        "priceChangeDate": "2025-05-01"
       }
     ]
   },
@@ -30,16 +28,21 @@
     "icon": "disney.png",
     "plans": [
       {
+        "name": "Standard avec pub",
+        "price": 5.99,
+        "priceChangeDate": "2024-11-01"
+      },
+      {
         "name": "Standard",
-        "prices": [
-          { "price": 8.99, "start": "2022-01-01" }
-        ]
+        "price": 8.99,
+        "oldPrice": 7.99,
+        "priceChangeDate": "2024-11-01"
       },
       {
         "name": "Premium",
-        "prices": [
-          { "price": 11.99, "start": "2022-01-01" }
-        ]
+        "price": 11.99,
+        "oldPrice": 10.99,
+        "priceChangeDate": "2025-01-10"
       }
     ]
   },
@@ -49,17 +52,15 @@
     "plans": [
       {
         "name": "Mensuel",
-        "prices": [
-          { "price": 6.99, "start": "2022-01-01", "end": "2024-05-10" },
-          { "price": 7.99, "start": "2024-05-11" }
-        ]
+        "price": 6.99,
+        "oldPrice": 5.99,
+        "priceChangeDate": "2024-12-01"
       },
       {
         "name": "Annuel",
-        "prices": [
-          { "price": 69.90, "start": "2022-01-01", "end": "2024-05-10" },
-          { "price": 79.90, "start": "2024-05-11" }
-        ],
+        "price": 69.90,
+        "oldPrice": 49.00,
+        "priceChangeDate": "2024-12-01",
         "isYearly": true
       }
     ]
@@ -69,34 +70,22 @@
     "icon": "appletv.png",
     "plans": [
       {
-        "name": "Standard",
-        "prices": [
-          { "price": 9.99, "start": "2022-01-01" }
-        ]
+        "name": "Mensuel",
+        "price": 9.99,
+        "oldPrice": 6.99,
+        "priceChangeDate": "2023-11-01"
       }
     ]
   },
   {
-    "name": "Canal+ Series",
-    "icon": "canal.png",
+    "name": "Paramount+",
+    "icon": "paramount.png",
     "plans": [
       {
-        "name": "Solo",
-        "prices": [
-          { "price": 7.99, "start": "2022-01-01" }
-        ]
-      },
-      {
-        "name": "Duo",
-        "prices": [
-          { "price": 10.99, "start": "2022-01-01" }
-        ]
-      },
-      {
-        "name": "Family",
-        "prices": [
-          { "price": 12.99, "start": "2022-01-01" }
-        ]
+        "name": "Mensuel",
+        "price": 7.99,
+        "oldPrice": 6.99,
+        "priceChangeDate": "2024-04-01"
       }
     ]
   }
