@@ -6,8 +6,8 @@
       {
         "name": "Essentiel",
         "price": 10.99,
-        "oldPrice": 9.99,
-        "priceChangeDate": "2024-10-01"
+        "oldPrice": ,
+        "priceChangeDate": ""
       },
       {
         "name": "Standard",
