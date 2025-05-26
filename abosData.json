@@ -71,7 +71,7 @@
     "plans": [
       {
         "name": "Mensuel",
-        "price": 9.99,
+        "price": 20.99,
         "oldPrice": 6.99,
         "priceChangeDate": "2023-11-01"
       }
